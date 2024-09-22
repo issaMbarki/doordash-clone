@@ -5,29 +5,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DoorDash clone</title>
-  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="icon" href="assets/img/favicon.png" />
   <link rel="stylesheet" href="assets/css/tailwind.css" />
   <link rel="stylesheet" href="assets/css/index.css" />
   <link rel="stylesheet" href="assets/vendor/remixIcon/remixicon.css" />
 </head>
-<!-- test -->
+
 <body>
   <!-- header -->
   <header class="fixed w-full">
-    <nav class="">
-      <div class="signing mr-3.5 absolute top-6 right-0">
-        <a href="#" class="tracking-wide bg-red-600 text-white py-3 px-3.5 rounded-full font-bold mr-1">
-          Sign In</a>
-        <a href="#" class="tracking-wide bg-white text-gray-600 py-3 px-3.5 rounded-full font-bold">Sign Up</a>
-      </div>
+    <nav class="signing mr-3.5 absolute top-6 right-0">
+      <a href="#" class="tracking-wide bg-red-600 text-white py-3 px-3.5 rounded-full font-bold mr-1"
+        aria-label="Sign in">Sign In</a>
+      <a href="#" class="tracking-wide bg-white text-gray-600 py-3 px-3.5 rounded-full font-bold"
+        aria-label="Sign up">Sign Up</a>
     </nav>
   </header>
   <!-- end header -->
 
   <!-- main  -->
   <main
-    class="sm:h-[77vh] h-screen bg-cover flex items-center sm:justify-between justify-center flex-col sm:bg-[url('../img/hero_desktop.png')] bg-[url('../img/hero_mobile.png')]">
-    <div class="logo flex justify-center gap-2">
+    class="sm:h-[77vh] h-screen bg-cover flex items-center sm:justify-between justify-center gap-6 sm:gap-0 flex-col sm:bg-[url('../img/hero_desktop.png')] bg-[url('../img/hero_mobile.png')]">
+    <div class="logo flex justify-center items-center gap-2.5 sm:relative top-6">
       <svg aria-hidden="true" width="42" height="24" viewBox="0 0 99.5 56.5" fill="white">
         <path
           d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16">
@@ -66,9 +65,10 @@
       </h1>
 
       <div
-        class="address-input mt-4 sm:w-3/5 w-auto flex items-center justify-between gap-3 bg-white py-3 px-3.5 rounded-full border-2 focus-within:border-blue-500">
+        class="address-input mt-4 sm:w-3/5 w-auto flex items-center justify-between gap-3 bg-white py-2.5 px-3.5 rounded-full border-2 focus-within:border-blue-500">
         <i class="ri-map-pin-line text-xl text-gray-600"></i>
-        <input type="text" placeholder="Enter delivery address" class="border-none outline-none grow" />
+        <input type="text" placeholder="Enter delivery address"
+          class="border-none outline-none grow placeholder:text-gray-800" />
         <button>
           <i class="ri-arrow-right-line rounded-full p-2.5 hover:bg-gray-100 text-2xl"></i>
         </button>
@@ -81,6 +81,46 @@
     </div>
   </main>
   <!-- end main -->
+
+  <!-- section -->
+  <section class="h-[50vh] w-2/3 m-auto flex items-center justify-around gap-12">
+
+    <div class="w-1/4 flex flex-col justify-center items-center">
+      <img src="assets/img/ScootScoot.svg" alt="" />
+      <h4 class="text-center text-3xl font-bold ">Become a Dasher</h4>
+      <p class="text-center text-lg my-2">
+        As a delivery driver, make money and work on your schedule. Sign up in
+        minutes.
+      </p>
+      <a href="#" class="text-red-600 font-bold flex items-center gap-1">Start earning<i
+          class="ri-arrow-right-line"></i> </a>
+    </div>
+
+    <div class="w-1/4 flex flex-col justify-center items-center">
+      <img src="assets/img/Storefront.svg" alt="" />
+      <h4 class="text-center text-3xl font-bold">Become a Merchant</h4>
+      <p class="text-center text-lg my-2">
+        Attract new customers and grow sales, starting with 0% commissions for
+        up to 30 days.
+      </p>
+      <a href="#" class="text-red-600 font-bold flex items-center gap-1">Sign up for DoorDash<i
+          class="ri-arrow-right-line"></i></a>
+    </div>
+
+    <div class="w-1/4 flex flex-col justify-center items-center">
+      <img src="assets/img/iphone.svg" alt="" />
+      <h4 class="text-center text-3xl font-bold">Get the best DoorDash experience</h4>
+      <p class="text-center text-lg my-2">
+        Experience the best your neighborhood has to offer, all in one app.
+      </p>
+      <a href="#" class="text-red-600 font-bold flex items-center gap-1">Get the app<i
+          class="ri-arrow-right-line"></i></a>
+    </div>
+
+  </section>
+  <!-- end section -->
+
+  <section class="h-screen"></section>
 </body>
 <!--  -->
 
