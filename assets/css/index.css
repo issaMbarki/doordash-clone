@@ -1,6 +1,19 @@
-main {
-  background-image: url(../img/hero_desktop.png);
+.navbar-show {
+  animation-name: navbar-slide-in;
+  animation-timing-function: ease-in-out;
+  animation-duration: 300ms;
 }
-.address-input:focus-within {
-  /* border: solid 1px blue; */
+@keyframes navbar-slide-in {
+  from {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.navbar-show .logo {
+  opacity: 1;
 }
