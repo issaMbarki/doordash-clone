@@ -1056,6 +1056,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .pt-96 {
   padding-top: 24rem;
 }
@@ -1304,6 +1309,10 @@ video {
     height: auto;
   }
 
+  .sm\:h-\[500px\] {
+    height: 500px;
+  }
+
   .sm\:w-1\/4 {
     width: 25%;
   }
@@ -1361,6 +1370,18 @@ video {
     max-width: 60%;
   }
 
+  .sm\:max-w-\[\] {
+    max-width: ;
+  }
+
+  .sm\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
+  .sm\:max-w-\[400px\] {
+    max-width: 400px;
+  }
+
   .sm\:grow {
     flex-grow: 1;
   }
@@ -1401,12 +1422,24 @@ video {
     gap: 3.5rem;
   }
 
+  .sm\:gap-\[\] {
+    gap: ;
+  }
+
+  .sm\:gap-\[60px\] {
+    gap: 60px;
+  }
+
   .sm\:bg-\[url\(\'\.\.\/img\/hero_desktop\.png\'\)\] {
     background-image: url('../img/hero_desktop.png');
   }
 
   .sm\:p-0 {
     padding: 0px;
+  }
+
+  .sm\:p-5 {
+    padding: 1.25rem;
   }
 
   .sm\:px-12 {
@@ -1442,6 +1475,10 @@ video {
 
   .sm\:pt-16 {
     padding-top: 4rem;
+  }
+
+  .sm\:pt-\[60\] {
+    padding-top: 60;
   }
 
   .sm\:text-center {
